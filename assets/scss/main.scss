@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+$shadow-color:rgb(191, 147, 118);
+$dark:#453427;
+$secondary:#715645;
+$light:#FCF2CA;
+$danger:#7C1824;
+$theme-colors: (
+  "primary": #eab988,
+  "dark": $dark,
+  "secondary": $secondary,
+  "light":$light,
+  "danger":$danger,
+  );
+  $box-shadow: 0 .5rem 1rem rgba($shadow-color, .5) !default;
+  $box-shadow-lg: 0 1rem 3rem rgba($shadow-color, .5) !default;
+  @import "../vendors/bootstrap4/scss/bootstrap";
+
+  body{
+    font-family: 'Poppins', sans-serif;
+    color: $dark!important;
+  }
+  nav.navbar {
+    .navbar-brand{
+      font-family: 'Poppins', sans-serif;
+      // font-family: 'Pacifico', cursive;
+    }
+    .navbar-brand,.nav-link.active{
+      color: $danger!important;
+    }
+    .nav-link{
+      color: $secondary;
+    }
+  }
+  main{
+    min-height: 100vh;
+  }
+  iframe{
+    width: 100%;
+    min-height: 350px;
+  }
+  section,footer{
+    padding: 1.5rem 0;
+  }
+  footer{
+    background-color: $secondary;
+    width: 100%;
+    text-align: center;
+    color: $light;
+  }
+  hr.rounded {
+    border-top: 8px solid $secondary;
+    border-radius: 5px;
+  }
+  a{
+    color: $dark;
+  }
+  .fixed-navbar{
+    position: relative;
+    min-height: 56px;
+  }
+  #info .card{
+    font-size: 1.5em;
+  }
+  
