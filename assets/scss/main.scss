@@ -19,6 +19,7 @@ $theme-colors: (
   body{
     font-family: 'Poppins', sans-serif;
     color: $dark!important;
+    position: relative;
   }
   nav.navbar {
     .navbar-brand{
@@ -77,10 +78,16 @@ $theme-colors: (
     background: transparent;
     color: $secondary;
   }
+  #testimoni .carousel .row{
+    height: 450px;
+  }
 
   @include media-breakpoint-up(lg) { 
     #info .card{
       min-height: 236px;
       margin-bottom: 2rem!important;
+    }
+    #testimoni .carousel .row{
+      height: 300px;
     }
    }

@@ -10841,6 +10841,7 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   font-family: 'Poppins', sans-serif;
   color: #453427 !important;
+  position: relative;
 }
 
 nav.navbar .navbar-brand {
@@ -10911,10 +10912,17 @@ a {
   color: #715645;
 }
 
+#testimoni .carousel .row {
+  height: 450px;
+}
+
 @media (min-width: 992px) {
   #info .card {
     min-height: 236px;
     margin-bottom: 2rem !important;
+  }
+  #testimoni .carousel .row {
+    height: 300px;
   }
 }
 /*# sourceMappingURL=main.css.map */
