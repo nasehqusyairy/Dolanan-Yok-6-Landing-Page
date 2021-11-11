@@ -51,7 +51,8 @@ $theme-colors: (
   hr.rounded {
     border-top: 8px solid $secondary;
     border-radius: 5px;
-    margin: 1rem 0;
+    margin:0;
+    margin-top:1rem;
   }
   a{
     color: $dark;
@@ -73,3 +74,10 @@ $theme-colors: (
     background: transparent;
     color: $secondary;
   }
+
+  @include media-breakpoint-up(lg) { 
+    #info .card{
+      min-height: 236px;
+      margin-bottom: 2rem!important;
+    }
+   }

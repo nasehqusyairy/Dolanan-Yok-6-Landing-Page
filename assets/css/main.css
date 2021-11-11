@@ -10878,7 +10878,8 @@ footer:not(.blockquote-footer) {
 hr.rounded {
   border-top: 8px solid #715645;
   border-radius: 5px;
-  margin: 1rem 0;
+  margin: 0;
+  margin-top: 1rem;
 }
 
 a {
@@ -10904,5 +10905,12 @@ a {
   border: none;
   background: transparent;
   color: #715645;
+}
+
+@media (min-width: 992px) {
+  #info .card {
+    min-height: 236px;
+    margin-bottom: 2rem !important;
+  }
 }
 /*# sourceMappingURL=main.css.map */
