@@ -10882,6 +10882,10 @@ hr.rounded {
   margin-top: 1rem;
 }
 
+hr.dashed {
+  border-top: 3px dashed #715645;
+}
+
 a {
   color: #453427;
 }

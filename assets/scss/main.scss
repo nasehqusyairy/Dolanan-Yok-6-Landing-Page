@@ -54,6 +54,9 @@ $theme-colors: (
     margin:0;
     margin-top:1rem;
   }
+  hr.dashed {
+    border-top: 3px dashed $secondary;
+  }
   a{
     color: $dark;
   }
