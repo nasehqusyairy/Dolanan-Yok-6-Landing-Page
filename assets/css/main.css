@@ -10916,6 +10916,10 @@ a {
   height: 450px;
 }
 
+#galeri img {
+  margin-bottom: 1rem;
+}
+
 @media (min-width: 992px) {
   #info .card {
     min-height: 236px;

@@ -81,6 +81,9 @@ $theme-colors: (
   #testimoni .carousel .row{
     height: 450px;
   }
+  #galeri img{
+    margin-bottom: 1rem;
+  }
 
   @include media-breakpoint-up(lg) { 
     #info .card{
