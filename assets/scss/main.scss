@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-$shadow-color:rgb(191, 147, 118);
+$shadow-color:#7C1824;
+// $shadow-color:rgb(191, 147, 118);
 $dark:#453427;
 $secondary:#715645;
 $light:#FCF2CA;
@@ -38,10 +39,10 @@ $theme-colors: (
     width: 100%;
     min-height: 350px;
   }
-  section,footer{
+  section,footer:not(.blockquote-footer){
     padding: 1rem 0;
   }
-  footer{
+  footer:not(.blockquote-footer){
     background-color: $secondary;
     width: 100%;
     text-align: center;
@@ -50,7 +51,7 @@ $theme-colors: (
   hr.rounded {
     border-top: 8px solid $secondary;
     border-radius: 5px;
-    margin: 0;
+    margin: 1rem 0;
   }
   a{
     color: $dark;
@@ -66,4 +67,9 @@ $theme-colors: (
   #info ul{
     list-style-type: none;
     padding: 0;
+  }
+  .carousel-control-prev,.carousel-control-next{
+    border: none;
+    background: transparent;
+    color: $secondary;
   }

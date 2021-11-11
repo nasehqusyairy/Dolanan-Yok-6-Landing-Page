@@ -8625,13 +8625,13 @@ button.bg-dark:focus {
 }
 
 .shadow {
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(191, 147, 118, 0.5) !important;
-          box-shadow: 0 0.5rem 1rem rgba(191, 147, 118, 0.5) !important;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(124, 24, 36, 0.5) !important;
+          box-shadow: 0 0.5rem 1rem rgba(124, 24, 36, 0.5) !important;
 }
 
 .shadow-lg {
-  -webkit-box-shadow: 0 1rem 3rem rgba(191, 147, 118, 0.5) !important;
-          box-shadow: 0 1rem 3rem rgba(191, 147, 118, 0.5) !important;
+  -webkit-box-shadow: 0 1rem 3rem rgba(124, 24, 36, 0.5) !important;
+          box-shadow: 0 1rem 3rem rgba(124, 24, 36, 0.5) !important;
 }
 
 .shadow-none {
@@ -10864,11 +10864,11 @@ iframe {
   min-height: 350px;
 }
 
-section, footer {
+section, footer:not(.blockquote-footer) {
   padding: 1rem 0;
 }
 
-footer {
+footer:not(.blockquote-footer) {
   background-color: #715645;
   width: 100%;
   text-align: center;
@@ -10878,7 +10878,7 @@ footer {
 hr.rounded {
   border-top: 8px solid #715645;
   border-radius: 5px;
-  margin: 0;
+  margin: 1rem 0;
 }
 
 a {
@@ -10897,5 +10897,12 @@ a {
 #info ul {
   list-style-type: none;
   padding: 0;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  border: none;
+  background: transparent;
+  color: #715645;
 }
 /*# sourceMappingURL=main.css.map */
