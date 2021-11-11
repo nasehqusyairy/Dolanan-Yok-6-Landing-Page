@@ -10848,7 +10848,7 @@ nav.navbar .navbar-brand {
 }
 
 nav.navbar .navbar-brand, nav.navbar .nav-link.active {
-  color: #7C1824 !important;
+  color: #FCF2CA !important;
 }
 
 nav.navbar .nav-link {
@@ -10865,7 +10865,7 @@ iframe {
 }
 
 section, footer {
-  padding: 1.5rem 0;
+  padding: 1rem 0;
 }
 
 footer {
@@ -10878,6 +10878,7 @@ footer {
 hr.rounded {
   border-top: 8px solid #715645;
   border-radius: 5px;
+  margin: 0;
 }
 
 a {
@@ -10889,7 +10890,12 @@ a {
   min-height: 56px;
 }
 
-#info .card {
-  font-size: 1.5em;
+.jumbotron .img-fluid {
+  max-width: 300px;
+}
+
+#info ul {
+  list-style-type: none;
+  padding: 0;
 }
 /*# sourceMappingURL=main.css.map */

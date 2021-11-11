@@ -25,7 +25,7 @@ $theme-colors: (
       // font-family: 'Pacifico', cursive;
     }
     .navbar-brand,.nav-link.active{
-      color: $danger!important;
+      color: $light!important;
     }
     .nav-link{
       color: $secondary;
@@ -39,7 +39,7 @@ $theme-colors: (
     min-height: 350px;
   }
   section,footer{
-    padding: 1.5rem 0;
+    padding: 1rem 0;
   }
   footer{
     background-color: $secondary;
@@ -50,6 +50,7 @@ $theme-colors: (
   hr.rounded {
     border-top: 8px solid $secondary;
     border-radius: 5px;
+    margin: 0;
   }
   a{
     color: $dark;
@@ -58,7 +59,11 @@ $theme-colors: (
     position: relative;
     min-height: 56px;
   }
-  #info .card{
-    font-size: 1.5em;
+
+  .jumbotron .img-fluid{
+    max-width: 300px;
   }
-  
+  #info ul{
+    list-style-type: none;
+    padding: 0;
+  }
