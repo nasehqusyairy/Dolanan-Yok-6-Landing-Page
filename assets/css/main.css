@@ -10921,8 +10921,8 @@ a {
 }
 
 @media (min-width: 992px) {
-  #info .card .card-body {
-    min-height: 332px;
+  #info .row:not(.virtual) .card .card-body {
+    min-height: 232px;
   }
   #testimoni .carousel .row {
     height: 300px;
