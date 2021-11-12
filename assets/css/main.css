@@ -10905,11 +10905,6 @@ a {
   max-width: 300px;
 }
 
-#info ul {
-  list-style-type: none;
-  padding: 0;
-}
-
 .carousel-control-prev,
 .carousel-control-next {
   border: none;
@@ -10926,9 +10921,8 @@ a {
 }
 
 @media (min-width: 992px) {
-  #info .card {
-    min-height: 236px;
-    margin-bottom: 2rem !important;
+  #info .card .card-body {
+    min-height: 332px;
   }
   #testimoni .carousel .row {
     height: 300px;

@@ -72,10 +72,10 @@ $theme-colors: (
   .jumbotron .img-fluid{
     max-width: 300px;
   }
-  #info ul{
-    list-style-type: none;
-    padding: 0;
-  }
+  // #info ul{
+  //   list-style-type: none;
+  //   padding: 0;
+  // }
   .carousel-control-prev,.carousel-control-next{
     border: none;
     background: transparent;
@@ -89,9 +89,8 @@ $theme-colors: (
   }
 
   @include media-breakpoint-up(lg) { 
-    #info .card{
-      min-height: 236px;
-      margin-bottom: 2rem!important;
+    #info .card .card-body{
+      min-height: 332px;
     }
     #testimoni .carousel .row{
       height: 300px;
