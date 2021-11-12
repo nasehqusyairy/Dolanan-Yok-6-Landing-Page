@@ -65,7 +65,10 @@ $theme-colors: (
     position: relative;
     min-height: 56px;
   }
-
+.jumbotron{
+  background: url(../img/batik.jpg);
+  background-size: cover;
+}
   .jumbotron .img-fluid{
     max-width: 300px;
   }
