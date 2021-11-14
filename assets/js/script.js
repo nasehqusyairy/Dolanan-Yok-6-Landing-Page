@@ -6,4 +6,7 @@ $(document).ready(function () {
     });
     e.preventDefault();
   });
+  $("a[href='#']").click(function (e) {
+    e.preventDefault();
+  });
 });
