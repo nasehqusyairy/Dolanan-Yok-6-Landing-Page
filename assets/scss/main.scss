@@ -84,10 +84,19 @@ $theme-colors: (
     margin-bottom: 1rem;
     border-radius: 0.3rem;
   }
+  #info .card{
+    ul li p{
+      margin: 0;
+      color: $dark;
+    }
+    .card-footer{
+      padding-bottom: 1.25rem;
+    }
+  }
 
   @include media-breakpoint-up(lg) { 
     #info .row:not(.virtual) .card .card-body{
-      min-height: 232px;
+      min-height: 384px;
     }
     #testimoni .carousel .row{
       height: 300px;
