@@ -22,7 +22,16 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <!-- Safari -->
   <meta name="apple-mobile-web-app-status-bar-style" content="#7C1824">
-
+  
+  <style>
+    @media (min-width: 992px)
+      #info .row.virtual .card .card-body {
+        min-height: 188px;
+    }
+      #info .row:not(.virtual) .card .card-body {
+        min-height: 432px;
+    }
+  </style>
   <title>Dolanan Yok! 6</title>
 </head>
 
